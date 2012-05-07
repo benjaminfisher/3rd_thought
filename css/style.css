@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 header {
   background: url(../images/header_bg.png) 0 bottom repeat-x #91d7ea;
   float: left;
-  padding: 35px 0px;
+  padding: 40px 0px;
   width: 100%;
 }
 /* line 9, ../sass/_header.scss */
