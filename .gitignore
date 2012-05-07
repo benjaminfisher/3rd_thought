@@ -1,0 +1,16 @@
+*.class
+*.merge-left*
+*.merge-right*
+*.mine
+*.prej
+*.pyc
+*.pyo
+*.working
+.deployables
+.svn
+_svn
+svn-commit*.tmp
+
+.settings
+.project
+.sass-cache
