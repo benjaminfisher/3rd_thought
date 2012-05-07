@@ -33,7 +33,7 @@ header{
         margin-left:3em;
         text-transform:uppercase;
         
-        &.current a{ color:#fe3000; }
+        &.current a{ color:#fe3000; cursor:default; text-decoration:none; }
       }
     } // End Header Global Nav styles
   

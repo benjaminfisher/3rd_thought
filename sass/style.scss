@@ -1,18 +1,17 @@
-@import "compass/reset", "compass/css3", "mixins", "header";
-
-// Define color variables
-$text_color:#094f4f;
+@import "compass/reset", "compass/css3", "mixins", "variables", "header", "footer";
 
 body{
   color:$text_color;
   font: normal 11/1.5em "proxima-nova", Helvetica, Arial, sans-serif;
   
   a {
-    color:$text_color;
+    color:$alt_text_color;
     text-decoration:none;
     
     &:hover, &:active { text-decoration:underline; }
   }
+  
+  .uppercase { text-transform:uppercase; }
   
   div.wrapper{
     @include center_block;

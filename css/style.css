@@ -110,23 +110,66 @@ header div.wrapper nav.global ul li {
 /* line 36, ../sass/_header.scss */
 header div.wrapper nav.global ul li.current a {
   color: #fe3000;
+  cursor: default;
+  text-decoration: none;
 }
 
-/* line 6, ../sass/style.scss */
-body {
+/* line 3, ../sass/_footer.scss */
+footer.global {
+  background: url(../images/footer_bg.png) -10px top repeat-x transparent;
+  font-weight: 500;
+  padding: 40px 0px;
+  width: 100%;
+}
+/* line 9, ../sass/_footer.scss */
+footer.global div.wrapper {
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 10px;
+  width: 960px;
+  position: relative;
+}
+/* line 13, ../sass/_footer.scss */
+footer.global div.wrapper ul.contact li {
+  float: left;
+  font-size: 1.09090909em;
+  padding-right: 2em;
+}
+/* line 19, ../sass/_footer.scss */
+footer.global div.wrapper p.social {
   color: #094f4f;
+  float: left;
+}
+/* line 23, ../sass/_footer.scss */
+footer.global div.wrapper p.social a {
+  color: #636466;
+  margin: 0 1em;
+}
+/* line 26, ../sass/_footer.scss */
+footer.global div.wrapper a.credit_link {
+  position: absolute;
+  right: 0px;
+}
+
+/* line 3, ../sass/style.scss */
+body {
+  color: #414042;
   font: normal 11/1.5em "proxima-nova", Helvetica, Arial, sans-serif;
 }
-/* line 10, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 body a {
   color: #094f4f;
   text-decoration: none;
 }
-/* line 14, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 body a:hover, body a:active {
   text-decoration: underline;
 }
-/* line 17, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
+body .uppercase {
+  text-transform: uppercase;
+}
+/* line 16, ../sass/style.scss */
 body div.wrapper {
   margin: 0 auto;
   overflow: auto;

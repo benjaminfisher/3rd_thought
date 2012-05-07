@@ -1,0 +1,29 @@
+@import "mixins", "variables";
+
+footer.global{
+  background: url(../images/footer_bg.png) -10px top repeat-x transparent;
+  font-weight:500;
+  padding:40px 0px;
+  width:100%;
+  
+  div.wrapper{
+    @include center_block;
+    position:relative;
+    
+    ul.contact li{
+      float:left;
+      font-size:1.09090909em;
+      padding-right:2em;
+    }
+    
+    p.social{ 
+      color:$alt_text_color;
+      float:left;
+      
+      a{ color:$dart_text_color; margin:0 1em; }
+    }
+    
+    a.credit_link { position:absolute; right:0px; }
+    
+  } // End wrapper styles
+} // End global footer styles
