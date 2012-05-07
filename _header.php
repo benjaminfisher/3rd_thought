@@ -5,6 +5,8 @@
 	} else {
 		echo "<!DOCTYPE = html>\n";
 	}
+    
+    $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <html lang="en-US">
 <head>
@@ -24,14 +26,20 @@
 </head>
 <body>
 	<header>
-		<h1>
-		  <a href="index.php" title="Home"></a>
-	    </h1>
-		<nav class="global">
-			<ul>
-
-			</ul>
-		</nav>
+		<div class="wrapper">
+			<h1 class="logo">
+			  <a href="index.php" title="Home">Third Thought</a>
+				    </h1>
+			<nav class="global">
+				<ul>
+			                <li<?php if(is_int(strrpos($current_page, 'blog'))){ echo ' class="current"'; } ?>><a href="blog.php">Blog</a></li>
+			                <li<?php if(is_int(strrpos($current_page, 'services'))){ echo ' class="current"'; } ?>><a href="services.php">Workshops &amp; Services</a></li>
+			                <li<?php if(is_int(strrpos($current_page, 'speaking'))){ echo ' class="current"'; } ?>><a href="speaking.php">Speaking</a></li>
+			                <li<?php if(is_int(strrpos($current_page, 'about'))){ echo ' class="current"'; } ?>><a href="about.php">Meet Maggie</a></li>
+			                <li<?php if(is_int(strrpos($current_page, 'index'))){ echo ' class="current"';} ?>><a href="index.php">Home</a></li>
+				</ul>
+			</nav>
+		</div> <!-- End wrapper div in header -->
 	</header>
 	<div class="wrapper">
 		

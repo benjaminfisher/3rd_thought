@@ -1,0 +1,8 @@
+$content_width:960px;
+
+@mixin center_block{
+  margin:0 auto;
+  overflow:auto;
+  padding:0 10px;
+  width:$content_width;
+}

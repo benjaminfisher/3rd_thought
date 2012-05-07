@@ -1,1 +1,22 @@
-@import "compass/reset", "compass/css3", "header";
+@import "compass/reset", "compass/css3", "mixins", "header";
+
+// Define color variables
+$text_color:#094f4f;
+
+body{
+  color:$text_color;
+  font: normal 11/1.5em "proxima-nova", Helvetica, Arial, sans-serif;
+  
+  a {
+    color:$text_color;
+    text-decoration:none;
+    
+    &:hover, &:active { text-decoration:underline; }
+  }
+  
+  div.wrapper{
+    @include center_block;
+    
+    clear:both;
+  } // End global wrapper div styles
+} // End global body styles

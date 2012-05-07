@@ -62,3 +62,75 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 3, ../sass/_header.scss */
+header {
+  background: url(../images/header_bg.png) 0 bottom repeat-x #91d7ea;
+  float: left;
+  padding: 35px 0px;
+  width: 100%;
+}
+/* line 9, ../sass/_header.scss */
+header div.wrapper {
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 10px;
+  width: 960px;
+}
+/* line 12, ../sass/_header.scss */
+header div.wrapper h1.logo {
+  float: left;
+}
+/* line 15, ../sass/_header.scss */
+header div.wrapper h1.logo a {
+  display: block;
+  height: 74px;
+  width: 242px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('/3rd_thought/images/logo.png?1336420502');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/* line 24, ../sass/_header.scss */
+header div.wrapper nav.global {
+  float: left;
+  position: relative;
+  top: 4.5em;
+}
+/* line 29, ../sass/_header.scss */
+header div.wrapper nav.global ul li {
+  float: left;
+  font-size: 1.22727273em;
+  font-weight: bold;
+  margin-left: 3em;
+  text-transform: uppercase;
+}
+/* line 36, ../sass/_header.scss */
+header div.wrapper nav.global ul li.current a {
+  color: #fe3000;
+}
+
+/* line 6, ../sass/style.scss */
+body {
+  color: #094f4f;
+  font: normal 11/1.5em "proxima-nova", Helvetica, Arial, sans-serif;
+}
+/* line 10, ../sass/style.scss */
+body a {
+  color: #094f4f;
+  text-decoration: none;
+}
+/* line 14, ../sass/style.scss */
+body a:hover, body a:active {
+  text-decoration: underline;
+}
+/* line 17, ../sass/style.scss */
+body div.wrapper {
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 10px;
+  width: 960px;
+  clear: both;
+}
