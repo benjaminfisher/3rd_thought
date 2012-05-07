@@ -1,4 +1,4 @@
-/* line 17, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,68 +20,68 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 3, ../sass/_header.scss */
+/* line 3, c:/xampp/htdocs/3rd_thought/sass/_header.scss */
 header {
   background: url(../images/header_bg.png) 0 bottom repeat-x #91d7ea;
   float: left;
   padding: 40px 0px;
+  position: relative;
   width: 100%;
 }
-/* line 9, ../sass/_header.scss */
+/* line 10, c:/xampp/htdocs/3rd_thought/sass/_header.scss */
 header div.wrapper {
   margin: 0 auto;
-  overflow: auto;
   padding: 0 10px;
   width: 960px;
 }
-/* line 12, ../sass/_header.scss */
+/* line 13, c:/xampp/htdocs/3rd_thought/sass/_header.scss */
 header div.wrapper h1.logo {
   float: left;
 }
-/* line 15, ../sass/_header.scss */
+/* line 16, c:/xampp/htdocs/3rd_thought/sass/_header.scss */
 header div.wrapper h1.logo a {
   display: block;
   height: 74px;
@@ -93,13 +93,13 @@ header div.wrapper h1.logo a {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-/* line 24, ../sass/_header.scss */
+/* line 25, c:/xampp/htdocs/3rd_thought/sass/_header.scss */
 header div.wrapper nav.global {
   float: left;
   position: relative;
   top: 4.5em;
 }
-/* line 29, ../sass/_header.scss */
+/* line 30, c:/xampp/htdocs/3rd_thought/sass/_header.scss */
 header div.wrapper nav.global ul li {
   float: left;
   font-size: 1.22727273em;
@@ -107,45 +107,45 @@ header div.wrapper nav.global ul li {
   margin-left: 3em;
   text-transform: uppercase;
 }
-/* line 36, ../sass/_header.scss */
+/* line 37, c:/xampp/htdocs/3rd_thought/sass/_header.scss */
 header div.wrapper nav.global ul li.current a {
   color: #fe3000;
   cursor: default;
   text-decoration: none;
 }
 
-/* line 3, ../sass/_footer.scss */
+/* line 3, c:/xampp/htdocs/3rd_thought/sass/_footer.scss */
 footer.global {
   background: url(../images/footer_bg.png) -10px top repeat-x transparent;
   font-weight: 500;
   padding: 40px 0px;
   width: 100%;
 }
-/* line 9, ../sass/_footer.scss */
+/* line 9, c:/xampp/htdocs/3rd_thought/sass/_footer.scss */
 footer.global div.wrapper {
   margin: 0 auto;
-  overflow: auto;
   padding: 0 10px;
   width: 960px;
   position: relative;
 }
-/* line 13, ../sass/_footer.scss */
+/* line 13, c:/xampp/htdocs/3rd_thought/sass/_footer.scss */
 footer.global div.wrapper ul.contact li {
   float: left;
   font-size: 1.09090909em;
   padding-right: 2em;
 }
-/* line 19, ../sass/_footer.scss */
+/* line 19, c:/xampp/htdocs/3rd_thought/sass/_footer.scss */
 footer.global div.wrapper p.social {
   color: #094f4f;
   float: left;
+  font-weight: bold;
 }
-/* line 23, ../sass/_footer.scss */
+/* line 24, c:/xampp/htdocs/3rd_thought/sass/_footer.scss */
 footer.global div.wrapper p.social a {
   color: #636466;
   margin: 0 1em;
 }
-/* line 26, ../sass/_footer.scss */
+/* line 27, c:/xampp/htdocs/3rd_thought/sass/_footer.scss */
 footer.global div.wrapper a.credit_link {
   position: absolute;
   right: 0px;
@@ -154,25 +154,27 @@ footer.global div.wrapper a.credit_link {
 /* line 3, ../sass/style.scss */
 body {
   color: #414042;
-  font: normal 11/1.5em "proxima-nova", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.2em;
 }
-/* line 7, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 body a {
   color: #094f4f;
   text-decoration: none;
 }
-/* line 11, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 body a:hover, body a:active {
   text-decoration: underline;
 }
-/* line 14, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 body .uppercase {
   text-transform: uppercase;
 }
-/* line 16, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 body div.wrapper {
   margin: 0 auto;
-  overflow: auto;
   padding: 0 10px;
   width: 960px;
   clear: both;
